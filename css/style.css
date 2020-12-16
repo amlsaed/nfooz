@@ -168,7 +168,7 @@ body {
         top: 0 !important;
         right: auto;
         left: 0;
-        background: url(../imgs/s5.jpg);
+        background: url(../imgs/header/s5.jpg);
         background-size: cover;
         background-position: center center;
         bottom: auto;
@@ -214,7 +214,7 @@ body {
           color: #fff; }
   body .home-content {
     padding: 0 !important;
-    background: url(../imgs/s5.jpg);
+    background: url(../imgs/header/s5.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left;
@@ -356,12 +356,16 @@ body {
           right: 17px; }
   body .home-video {
     padding: 50px; }
+    body .home-video iframe {
+      margin-top: 20px;
+      border: 10px solid #fff;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
   body .home-contact {
     margin-top: 75px;
     margin-bottom: 75px;
     padding: 50px;
     background-attachment: fixed;
-    background: url(../imgs/s5.jpg);
+    background: url(../imgs/header/s5.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
@@ -531,6 +535,36 @@ body {
       margin-bottom: 50px;
       transition: all 1s ease-in-out; }
   @media screen and (max-width: 991px) {
+    body header {
+      height: 400px !important; }
+      body header .carousel {
+        height: 400px !important; }
+        body header .carousel img {
+          height: 400px !important; }
+        body header .carousel .carousel-indicators {
+          width: 20px; }
+          body header .carousel .carousel-indicators li {
+            width: 15px;
+            height: 15px; }
+        body header .carousel .carousel-caption {
+          width: 25%; }
+          body header .carousel .carousel-caption img {
+            display: none; }
+          body header .carousel .carousel-caption h1 {
+            font-size: 25px;
+            letter-spacing: 2px;
+            margin-top: 70px; }
+          body header .carousel .carousel-caption p {
+            font-size: 10px;
+            margin-top: 4px; }
+          body header .carousel .carousel-caption ul {
+            margin-top: 20px; }
+            body header .carousel .carousel-caption ul li {
+              width: 25px; }
+            body header .carousel .carousel-caption ul a {
+              font-size: 12px;
+              padding: 5px;
+              width: 25px; }
     body nav {
       max-height: auto !important;
       min-height: 60px;
@@ -541,10 +575,37 @@ body {
       body nav .sm-navbar-brand {
         display: block !important;
         position: fixed !important;
-        right: 68%;
+        right: 70%;
         top: 0;
         height: 50px;
         padding: 20px; }
+    body #pagetop {
+      left: 60px; }
+    body .title-sec {
+      position: relative;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+      margin-bottom: 30px; }
+      body .title-sec .title {
+        font-size: 30px; }
+        body .title-sec .title::after {
+          top: 50px;
+          right: 4%; }
+        body .title-sec .title::before {
+          top: 50px;
+          left: 4%; }
+    body .title-height {
+      height: 40px;
+      margin-top: 50px; }
+    body .text-content {
+      font-size: 15px; }
+    body .home-content .home-content-row p {
+      width: 100%;
+      margin: 20px auto;
+      padding: 20px 30px;
+      font-size: 15px;
+      text-align: center; }
     body footer {
       text-align: center !important; }
       body footer .img-2030 img {
