@@ -606,6 +606,8 @@ body {
       padding: 20px 30px;
       font-size: 15px;
       text-align: center; }
+    body .home-video iframe {
+      width: 100%; }
     body footer {
       text-align: center !important; }
       body footer .img-2030 img {

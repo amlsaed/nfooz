@@ -849,11 +849,15 @@ nav{
     
     text-align: center;
     
-}
+                 }
             }
         }
-        
-
+//  video  
+.home-video {
+iframe{
+    width: 100%;
+}
+}
 // footer
 footer{
          text-align: center!important;
