@@ -569,12 +569,13 @@ body {
       max-height: auto !important;
       min-height: 60px;
       width: 100% !important;
-      right: 0; }
+      right: 0 !important;
+      padding: 20px;
+      background: #15232e !important; }
       body nav .big-navbar-brand {
         display: none !important; }
       body nav .sm-navbar-brand {
         display: block !important;
-        position: fixed !important;
         right: 70%;
         top: 0;
         height: 50px;

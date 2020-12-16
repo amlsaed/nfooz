@@ -728,6 +728,7 @@ body{
         // servic page*********
 // media query
 @media screen and (max-width: 991px) {
+
 // header
 header{
     height: 400px!important;
@@ -791,7 +792,9 @@ nav{
          max-height: auto!important;
          min-height: 60px;
          width: 100%!important;
-         right: 0;
+         right: 0!important;
+         padding: 20px;
+         background: #15232e!important;
          
          .big-navbar-brand{
              
@@ -800,7 +803,6 @@ nav{
          }
          .sm-navbar-brand{
             display: block !important;
-            position: fixed!important;
             right:70%;
             top:0;
             height: 50px;
