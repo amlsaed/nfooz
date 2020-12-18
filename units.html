@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>الوحدات المتاحة-نفوذ العقارية</title>
-    <!-- <link rel="shortcut icon" href="./imgs/4.png" /> -->
+    <link rel="shortcut icon" href="./imgs/logo/smlogo.png" />
     
     <!---------Style-------->
     <!--owl carousel --------------- -->
@@ -26,8 +26,7 @@
     </head>
     <body>
  <!-- start offixed nav ----------------------------------------------------------------------->
- <header class="unit-header" >
- <nav class=" navbar navbar-expand-lg "  id="nav">
+ <nav class=" navbar navbar-expand-lg  nav-pages-bg"  id="header">
     <!-- nav button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
@@ -77,22 +76,24 @@
     </ul>
 </div>   
     <!-- nav brand------------------------------------>
-    <a class="navbar-brand  " href="#" id="brand-logo">
-        <img src="imgs/logo.png" alt="log">
+    <a class="navbar-brand  px-5" href="#" id="brand-logo">
+        <img src="imgs/logo/logo-w.png" alt="log" width="150px">
     </a>
 </nav>
-</header>
-<!-- end of nav -->
-<!-- units -->
+<!-- end of nav ------------------------------------------------------------------------------->
+<!-- units ------------------------------------------------------------------------------------>
 <section class="container units">
     <!-- units title -->
-    <div class="row text-center d-flex justify-content-center align-items-center">
-        <h1 class="units-title text-center">نفوذ ريذيدنس</h1>
+    <div class="row title-sec text-center d-flex justify-content-center align-items-center">
+        <h1 class="title text-center">
+            نفوذ ريذيدنس
+            <img class="title-img" src="./imgs/logo/smlogo.png">
+        </h1>
     </div>
     <!-- end of unit title -->
     <!-- units content -->
     <div class="row unit-content text-center d-flex justify-content-center align-items-center">
-        <!-- units nav content -->
+        <!-- units nav content ********************-->
         <ul class="nav nav-tabs unit-content-nav" id="myTab" role="tablist">
             <!-- sell units -->
             <li class="nav-item" role="presentation">
@@ -102,21 +103,23 @@
             </li>
             <!-- rent unite -->
             <li class="nav-item" role="presentation">
-              <a class="nav-link" id="rent-tab" data-toggle="tab" href="#rent" role="tab" aria-controls="rent" aria-selected="false">وحدات للايجار</a>
+              <a class="nav-link" id="rent-tab" data-toggle="tab" href="#rent" role="tab" aria-controls="rent" aria-selected="false">
+                  وحدات للايجار
+                </a>
             </li>  
         </ul>
-        <!-- end of unit nav -->
-          <!-- units tab content -->
+    <!-- end of unit nav -->
+    <!-- units tab content *********************-->
           <div class="tab-content " id="myTabContent">
-              <!-- sell content -->
+              <!--(1) sell content -->
             <div class="tab-pane fade show active " id="sell" role="tabpanel" aria-labelledby="sell-tab">
                 <div class="container">
                     <div class="row">
 
                    
-                <!-- unit modal -->
+                <!-- unit modal 1-->
                 <div class="col-md-4 unit-item">
-                         <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
+                         <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-sell-1">
                                         <div class="unit-sell-close-model">
                                             <h3 class="unit-name">نفوذ ريذدنس</h3>
                                             <ul class="unit-num d-flex justify-content-around align-items-center list-unstyled">
@@ -131,11 +134,11 @@
                                                     <span>4</span>
                                                 </li>
                                             </ul>
-                                            <img src="imgs/clients1.jpg" class="unit-btn-img">
+                                            <img src="imgs/units/1.jpeg" class="unit-btn-img">
                                         </div>
                          </button>
  
-                            <div class="modal fade bd-example-modal-lg unit-sell-open-model w-100" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sell-1 unit-sell-open-model w-100" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 
                                             <div class="modal-dialog modal-lg ">
                                                 <div class="modal-content">
@@ -150,7 +153,7 @@
                                                           <h3 class="unit-sell-header2">
                                                             ( القيروان - عبدالله الأسلمي )
                                                          </h3>
-                                                          <img src="imgs/service1.jpg" class="unit-sell-open-img">
+                                                          <img src="imgs/units/1.jpeg" class="unit-sell-open-img">
                                                           <ul class="w-100 d-flex justify-content-between align-items-center list-unstyled">
                                                             <li class="w-25 unit-sell-open-info">
                                                                 <h2>
@@ -178,9 +181,9 @@
                             </div>
                  </div>
                  <!--end of unit modal -->
-                 <!-- unit modal -->
+                 <!-- unit modal 2-->
                 <div class="col-md-4 unit-item">
-                    <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-sell-2">
                                    <div class="unit-sell-close-model">
                                        <h3 class="unit-name">نفوذ ريذدنس</h3>
                                        <ul class="unit-num d-flex justify-content-around align-items-center list-unstyled">
@@ -195,11 +198,11 @@
                                                <span>4</span>
                                            </li>
                                        </ul>
-                                       <img src="imgs/clients1.jpg" class="unit-btn-img">
+                                       <img src="imgs/units/2.jpeg" class="unit-btn-img">
                                    </div>
                     </button>
 
-                       <div class="modal fade bd-example-modal-lg unit-sell-open-model w-100" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                       <div class="modal fade bd-example-modal-sell-2 unit-sell-open-model w-100" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 
                                        <div class="modal-dialog modal-lg ">
                                            <div class="modal-content">
@@ -209,12 +212,12 @@
                                                </button>
                                                <h1 class="unit-sell-header">
                                                        <i class="far fa-building"></i>
-                                                         نفوذ ريزدنس
+                                                       2  نفوذ ريزدنس
                                                      </h1>
                                                      <h3 class="unit-sell-header2">
                                                        ( القيروان - عبدالله الأسلمي )
                                                     </h3>
-                                                     <img src="imgs/service1.jpg" class="unit-sell-open-img">
+                                                     <img src="imgs/units/2.jpeg" class="unit-sell-open-img">
                                                      <ul class="w-100 d-flex justify-content-between align-items-center list-unstyled">
                                                        <li class="w-25 unit-sell-open-info">
                                                            <h2>
@@ -242,9 +245,9 @@
                        </div>
                 </div>
                  <!--end of unit modal -->
-                <!-- unit modal -->
+                <!-- unit modal 3-->
                 <div class="col-md-4  unit-item">
-                    <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-sell-3">
                                 <div class="unit-sell-close-model">
                                     <h3 class="unit-name">نفوذ ريذدنس</h3>
                                     <ul class="unit-num d-flex justify-content-around align-items-center list-unstyled">
@@ -259,13 +262,13 @@
                                             <span>4</span>
                                         </li>
                                     </ul>
-                                    <img src="imgs/clients1.jpg" class="unit-btn-img">
+                                    <img src="imgs/units/3.jpeg" class="unit-btn-img">
                                 </div>
                     </button>
 
                     <div class="modal fade bd-example-modal-lg unit-sell-open-model w-100" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 
-                                    <div class="modal-dialog modal-lg ">
+                                    <div class="modal-dialog modal-sell-3 ">
                                         <div class="modal-content">
                                             <div class="row unit-sell-open-model-title d-flex justify-content-center align-items-center flex-column ">
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -273,12 +276,12 @@
                                             </button>
                                             <h1 class="unit-sell-header">
                                                     <i class="far fa-building"></i>
-                                                        نفوذ ريزدنس
+                                                       3 نفوذ ريزدنس
                                                     </h1>
                                                     <h3 class="unit-sell-header2">
                                                     ( القيروان - عبدالله الأسلمي )
                                                     </h3>
-                                                    <img src="imgs/service1.jpg" class="unit-sell-open-img">
+                                                    <img src="imgs/units/3.jpeg" class="unit-sell-open-img">
                                                     <ul class="w-100 d-flex justify-content-between align-items-center list-unstyled">
                                                     <li class="w-25 unit-sell-open-info">
                                                         <h2>
@@ -306,9 +309,9 @@
                     </div>
                 </div>
                  <!--end of unit modal -->
-                 <!-- unit modal -->
+                 <!-- unit modal 4-->
                 <div class="col-md-4 unit-item">
-                        <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
+                        <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-sell-4">
                                     <div class="unit-sell-close-model">
                                         <h3 class="unit-name">نفوذ ريذدنس</h3>
                                         <ul class="unit-num d-flex justify-content-around align-items-center list-unstyled">
@@ -323,13 +326,13 @@
                                                 <span>4</span>
                                             </li>
                                         </ul>
-                                        <img src="imgs/clients1.jpg" class="unit-btn-img">
+                                        <img src="imgs/units/4.jpeg" class="unit-btn-img">
                                     </div>
                         </button>
 
                         <div class="modal fade bd-example-modal-lg unit-sell-open-model w-100" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 
-                                        <div class="modal-dialog modal-lg ">
+                                        <div class="modal-dialog modal-sell-4 ">
                                             <div class="modal-content">
                                                 <div class="row unit-sell-open-model-title d-flex justify-content-center align-items-center flex-column ">
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -342,7 +345,7 @@
                                                         <h3 class="unit-sell-header2">
                                                         ( القيروان - عبدالله الأسلمي )
                                                         </h3>
-                                                        <img src="imgs/service1.jpg" class="unit-sell-open-img">
+                                                        <img src="imgs/units/4.jpeg" class="unit-sell-open-img">
                                                         <ul class="w-100 d-flex justify-content-between align-items-center list-unstyled">
                                                         <li class="w-25 unit-sell-open-info">
                                                             <h2>
@@ -370,9 +373,9 @@
                         </div>
                 </div>
                  <!--end of unit modal -->
-                <!-- unit modal -->
+                <!-- unit modal 5-->
                 <div class="col-md-4 unit-item">
-                        <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
+                        <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-sell-5">
                                     <div class="unit-sell-close-model">
                                         <h3 class="unit-name">نفوذ ريذدنس</h3>
                                         <ul class="unit-num d-flex justify-content-around align-items-center list-unstyled">
@@ -387,13 +390,13 @@
                                                 <span>4</span>
                                             </li>
                                         </ul>
-                                        <img src="imgs/clients1.jpg" class="unit-btn-img">
+                                        <img src="imgs/units/5.jpeg" class="unit-btn-img">
                                     </div>
                         </button>
 
                         <div class="modal fade bd-example-modal-lg unit-sell-open-model w-100" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 
-                                        <div class="modal-dialog modal-lg ">
+                                        <div class="modal-dialog modal-sell-5 ">
                                             <div class="modal-content">
                                                 <div class="row unit-sell-open-model-title d-flex justify-content-center align-items-center flex-column ">
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -406,7 +409,7 @@
                                                         <h3 class="unit-sell-header2">
                                                         ( القيروان - عبدالله الأسلمي )
                                                         </h3>
-                                                        <img src="imgs/service1.jpg" class="unit-sell-open-img">
+                                                        <img src="imgs/units/5.jpeg" class="unit-sell-open-img">
                                                         <ul class="w-100 d-flex justify-content-between align-items-center list-unstyled">
                                                         <li class="w-25 unit-sell-open-info">
                                                             <h2>
@@ -434,9 +437,9 @@
                         </div>
                 </div>
                  <!--end of unit modal -->
-                <!-- unit modal -->
+                <!-- unit modal 6-->
                 <div class="col-md-4 unit-item">
-                        <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
+                        <button type="button" class="btn unit-item-btn" data-toggle="modal" data-target=".bd-example-modal-sell-6">
                                     <div class="unit-sell-close-model">
                                         <h3 class="unit-name">نفوذ ريذدنس</h3>
                                         <ul class="unit-num d-flex justify-content-around align-items-center list-unstyled">
@@ -451,13 +454,13 @@
                                                 <span>4</span>
                                             </li>
                                         </ul>
-                                        <img src="imgs/clients1.jpg" class="unit-btn-img">
+                                        <img src="imgs/units/6.jpeg" class="unit-btn-img">
                                     </div>
                         </button>
 
                         <div class="modal fade bd-example-modal-lg unit-sell-open-model w-100" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 
-                                        <div class="modal-dialog modal-lg ">
+                                        <div class="modal-dialog modal-sell-6 ">
                                             <div class="modal-content">
                                                 <div class="row unit-sell-open-model-title d-flex justify-content-center align-items-center flex-column ">
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -470,7 +473,7 @@
                                                         <h3 class="unit-sell-header2">
                                                         ( القيروان - عبدالله الأسلمي )
                                                         </h3>
-                                                        <img src="imgs/service1.jpg" class="unit-sell-open-img">
+                                                        <img src="imgs/units/6.jpeg" class="unit-sell-open-img">
                                                         <ul class="w-100 d-flex justify-content-between align-items-center list-unstyled">
                                                         <li class="w-25 unit-sell-open-info">
                                                             <h2>
@@ -2275,14 +2278,14 @@
         </div>
              </div>
           </div>
-          <!-- end of unit tab content -->
+          <!-- end of unit tab content *************-->
     </div>
     <!-- end of tab row  -->
 </section>
 <!-- end of unit section (sell & rent)-->
 
   <!-- footer------------------------------------------------------------------------------ -->
-<footer class="row footer-row text-right ">
+<footer class="row footer-row text-md-right ">
     <!-- contact info "right footer" -------->
     <div class="col-md-3 all-footer-elements">
         <!-- title -->
