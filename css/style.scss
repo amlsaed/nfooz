@@ -21,6 +21,8 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #011019; 
   }
+  
+
 body{
     direction: rtl;
     overflow-x: hidden;
@@ -56,26 +58,27 @@ body{
         z-index: -1;
         bottom: 0 !important;
         left: 0;
-        width: 50%;
+        width: 40%;
         height: auto;
     }
+    // login page css
     .login-page{
       direction: ltr;
       .login-row{
-        margin-top: 150px;
+        margin-top: 100px;
         .login-social-media{
           li{
             margin-bottom: 20px;
             a{
-              width: 50px;
-              height:50px;
-              border-radius: 50%;
-              background-color: #fff;
               padding: 5px;
               margin-top: 10px;
+              transition:all .5s ease-in ;
+              :hover{
+                transform: scale(1.1);
+                 }
               img{
-                width: 15px;
-                height: 25px;
+                width: 60px;
+                height: 60px;
 
               }
   }
@@ -95,6 +98,11 @@ body{
              .form-group{
                position: relative;
                width: 100%;
+               transition: all .2s ease-in-out;
+                &:hover{
+                  transform: scale(1.1);
+                  
+                }
               input{
                 width: inherit;
                 height: 50px;
@@ -102,6 +110,7 @@ body{
                 border:1px solid transparent!important;
                 box-shadow: 1px 1px 10px rgba(0, 82, 106,.16);
                 text-align: center;
+                
                 }
               label{
                 position: absolute;
@@ -143,9 +152,47 @@ body{
             border-radius: 10px;
             color: #fff;
             font-weight: 600;
+            transition: all .2s ease-in-out;
+
+            &:hover{
+              transform: scale(1.1);
+              color: #fff;
+              background-color: #011019;
+            }
            }
 
         }
       }
     }
+    // end log in page css
+    // start of home page css
+    
+   // media query 
+   @media screen and (max-width: 900px) {
+     
+  }
+  @media screen and (max-width: 350px) {
+    .login-row{
+      display: flex!important;
+      flex-direction: column-reverse!important;
+    }
+    .login-social-media{
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: 30px!important;
+          height: 30px!important;
+        }
+      }
+    }
+    h1{
+      font-size: 25px!important;
+    }
+   .login-form-container{
+     padding: 15px!important;
+     margin-bottom: 20px;
+   }
+  }
 }
